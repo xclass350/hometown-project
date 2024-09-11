@@ -1,0 +1,66 @@
+
+*{
+  box-sizing: border-box;
+}
+body{
+  text-align: center;
+  align-items: center;
+  // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+}
+
+p{
+  text-align: center;
+}
+
+.top-section{
+  background-color: #f1faee;
+  margin: 0px;
+}
+
+.top-image{
+  background-image: url(canada.jpeg);
+  padding: 15px;
+  background-size: cover;
+  height: 400px;
+}
+
+.tourist-centre-images{
+  width: 100px;
+  border-radius: 50%;
+}
+
+.tourist-centre-container{
+  display: flex;
+  align-items: center;
+  margin: 30px 50px;
+  justify-content: space-around;
+  gap: 150px;
+}
+
+.card{
+  background-color: #a8dadc;
+  width: 400px;
+  height: 200px;
+  margin: 5px auto;
+  padding: 20px ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-image{
+  width: 150px;
+  margin-right: 30px;
+}
+
+.italic{
+  font-style: italic;
+}
